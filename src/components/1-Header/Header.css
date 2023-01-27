@@ -11,6 +11,7 @@
     box-shadow: 0 0 30px 0px #ff11bcf5;
 }
 .logo{
+    text-decoration: none;
     font-size: 4.0rem;
     font-weight: 700;
     color: #ff11bb;
