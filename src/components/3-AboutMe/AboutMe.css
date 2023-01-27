@@ -1,0 +1,24 @@
+.aboutMe{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 7% 14%;
+}
+.about_image{
+    width: 30%;
+    object-fit: scale-down;
+}
+.about_texto{
+    width: 50%;
+    padding: 1rem;
+    color: #eee;
+}
+.about_h2{
+    font-size: 6.0rem;
+    margin-bottom: 4rem;
+}
+.about_h3{
+    font-size: 2.6rem;
+    text-align: justify;
+}

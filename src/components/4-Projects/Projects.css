@@ -1,0 +1,31 @@
+.projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #eee;
+}
+.projects_h2{
+    font-size: 6.0rem;
+    margin-bottom: 12rem;
+    text-align: center;
+}
+.projects_box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px 150px;
+}
+.projects_box_single{
+    background-color: rgb(33, 33, 33);
+    width: 236px;
+    height: 331px;
+    border: 2px solid rgb(33, 33, 33);
+    box-shadow: rgba(0, 0, 0, 0.25) 8px 5px 22px 5px;
+    transition: all 0.5s ease 0s;
+}
+.projects_box_single:hover{
+    border-color: #f1b;
+    transition: all 0.5s ease 0s;
+    box-shadow: rgba(255, 17, 188, 0.25) 0px 0px 22px 0px;
+    transform: translateY(-1.5rem);
+}

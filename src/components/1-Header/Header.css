@@ -1,0 +1,37 @@
+.header{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 20.0rem;
+    z-index: 1;
+    background-color: #171717;
+    border-bottom: 0.2rem groove #ff11bb;
+    box-shadow: 0 0 30px 0px #ff11bcf5;
+}
+.logo{
+    font-size: 4.0rem;
+    font-weight: 700;
+    color: #ff11bb;
+}
+.logo:hover{
+    text-shadow: 0 0 3.0rem;
+}
+.header_ul{
+    display: flex;
+}
+.header_li{
+    list-style-type: none;
+}
+.header_a{
+    margin-left: 2.0rem;
+    font-size: 1.9rem;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    color: #fff;
+}
+.header_a:hover{
+    text-shadow: 0 0 2rem #c0c0c0, 0.1rem 0.1rem 0.5rem #ff11bb;
+}
