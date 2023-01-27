@@ -16,6 +16,10 @@
     gap: 60px 150px;
 }
 .projects_box_single{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: rgb(33, 33, 33);
     width: 236px;
     height: 331px;
@@ -28,4 +32,35 @@
     transition: all 0.5s ease 0s;
     box-shadow: rgba(255, 17, 188, 0.25) 0px 0px 22px 0px;
     transform: translateY(-1.5rem);
+}
+h4,h5{
+    font-size: 1.6rem;
+    font-weight: 400;
+    display: block;
+    margin-block-start: 1.2rem;
+    margin-block-end: 2rem;
+}
+.projects_img{
+    width: 150px;
+    height: 150px;
+    object-fit: scale-down;
+}
+.projects_btn{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.btn_a_1{
+    background-color: #f1b;
+}
+.btn_a_2{
+    background-color: 2px solid rgb(33, 33, 33);
+    border: 1px solid #fff;
+}
+.projects_btn_a{
+    padding: 12px 25px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #fff;
 }
