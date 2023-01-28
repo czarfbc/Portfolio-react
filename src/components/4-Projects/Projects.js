@@ -1,5 +1,5 @@
 import './Projects.css';
-import css3 from '../Image/logo-CSS3.png';
+import images from '../Image/index.js';
 
 function Projects() {
     return (
@@ -8,7 +8,7 @@ function Projects() {
         <div className='projects_box'>
             <div className='projects_box_single'>
               <h4>Linguagem predominante</h4>
-              <img className='projects_img' src={css3} alt=''/>
+              <img className='projects_img' src={images.css} alt=''/>
               <h5>Lorem Ipsum</h5>
               <div className='projects_btn'>
                 <a className='projects_btn_a btn_a_1' href='/'>Github</a>

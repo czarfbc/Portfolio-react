@@ -1,0 +1,30 @@
+.skills_box{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+.skills{
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    background-color: #212121;
+}
+.skill_box{
+    padding: 3% 0;
+    width: 100%;
+}
+.skill-icon{
+    color: #4F4F4F;
+}
+.skill-p{
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: rgb(218, 39, 167);
+    margin-top: 1.5rem;
+    transition: all 100ms ease 0ms;
+}
+.skill-p:hover{
+    transition: all 100ms ease 0ms;
+    letter-spacing: 5px;
+}

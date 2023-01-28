@@ -1,5 +1,5 @@
 import './Mockup.css';
-import mockup from '../Image/mockup.webp'
+import images from '../Image/index.js';
 
 function Mockup() {
     return (
@@ -10,7 +10,7 @@ function Mockup() {
             <br/>Desenvolvedor Front-end.</h1>
             <a className='neonBtn' href='/'>Linkedin</a>
         </div>
-        <img src={mockup} alt=''/>
+        <img src={images.mockup} alt=''/>
       </div>
     );
   }
