@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 15%;
     color: #eee;
 }
 .projects_h2{
@@ -62,16 +63,16 @@ h4,h5{
     transition: all 100ms ease 0s;
 }
 .btn_a_1:hover{
-    box-shadow: #f1b 0px 0.5rem 0.5rem -0.25rem;
-    transform: translateY(-0.25rem);
+    box-shadow: #f1b 0px 0.5em 0.5em -0.4em;
+    transform: translateY(-0.25em);
 }
 .btn_a_2{
     border: 1px solid #fff;
     transition: all 100ms ease 0s;
 }
 .btn_a_2:hover{
-    box-shadow: #fff 0px 0.5rem 0.5rem -0.4rem;
-    transform: translateY(-0.25rem);
+    box-shadow: #fff 0px 0.5em 0.5em -0.4em;
+    transform: translateY(-0.25em);
 }
 .projects_btn_a{
     padding: 12px 25px;
