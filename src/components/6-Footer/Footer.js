@@ -3,7 +3,7 @@ import './Footer.css';
 function Footer() {
   return (
     <div className="footer">
-      <a href='/'>© vinybergamo - Todos os direitos reservados</a>
+      <a href='/'>© cezarfernando - Todos os direitos reservados</a>
     </div>
   );
 }
