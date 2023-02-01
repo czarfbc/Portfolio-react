@@ -3,7 +3,7 @@ import assets from '../Assets/index.js';
 
 function AboutMe() {
   return (
-    <div className="aboutMe">
+    <div id='aboutMe' className="aboutMe">
       
       <div className="aboutMe-box">
         <img className='about_image' src={assets.czar_image} alt=''/>

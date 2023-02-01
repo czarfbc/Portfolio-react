@@ -3,7 +3,7 @@ import assets from '../Assets/index.js';
 
 function Projects() {
   return (
-    <div className="projects">
+    <div id='projects' className="projects">
       <h2 className="projects_h2">Projetos</h2>
       <div className='projects_box'>
 
