@@ -9,6 +9,8 @@ import cv from './Images/cv.png';
 import linkedin1 from './Images/linkedin.svg';
 import linkedin2 from './Images/linkedin-in.png';
 
+import curriculo from './Curriculo.pdf';
+
 const assets = {
     mockup_image: mockup,
     czar_image: czar,
@@ -21,5 +23,6 @@ const assets = {
     linkedin1: linkedin1,
     linkedin2: linkedin2,
 
+    curriculo: curriculo,
 };
 export default assets;

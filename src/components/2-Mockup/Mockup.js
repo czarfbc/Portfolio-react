@@ -10,7 +10,7 @@ function Mockup() {
         <br/>Desenvolvedor Front-end.</h1>
         <div className='projects_btn'>
 
-          <a className='link-btn link-btn-1' href='/'><img className='btn_image' src={assets.cv_image} alt=''/>Download CV</a>
+          <a className='link-btn link-btn-1' href={assets.curriculo} download='curriculo-cezarfernando'><img className='btn_image' src={assets.cv_image} alt=''/>Download CV</a>
 
           <a className='link-btn link-btn-2' href='https://www.linkedin.com/in/cezar-fernando/' rel='noreferrer' target='_blank'><img className='btn_image' src={assets.linkedin2} alt=''/>Linkedin</a>   
           
