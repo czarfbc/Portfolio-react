@@ -29,7 +29,7 @@
 }
 .contacts > div{
     display: flex;
-    width: 72%;
+    width: 100%;
     justify-content: space-evenly;
     padding: 0 14%;
     background-color: #212121;
@@ -47,4 +47,52 @@
 }
 .contact a:hover{
     color: #e235b1
+}
+@media (max-width:1280px){
+    .about_h2{font-size: 5.5rem;}
+    .about_h3{font-size: 2rem;}
+    .contacts > div{
+        justify-content: space-around;
+        margin: 0 14%;
+        padding: 0;
+    }
+}
+@media (max-width:1024px){
+    .about_h2{font-size: 4.5rem;}
+    .about_h3{font-size: 1.8rem;}
+    .about_image{width: 35%;}
+    .contact{font-size: 2.3rem;}
+    .contact a{font-size: 1.6rem;}
+}
+@media (max-width:768px){
+    .aboutMe-box{flex-direction: column;}
+    .about_texto{
+        text-align: center;
+        width: 77.11%;
+    }.about_image{
+        width: 50%; 
+        margin-bottom: 8%;
+    }
+    .contacts > div{margin: 0 5%;}
+    .contact{font-size: 1.8rem;}
+    .contact a{font-size: 1.5rem;}
+}
+@media (max-width:480px){
+    .about_h2{font-size: 3.5rem;}
+    .about_h3{font-size: 1.6rem;}
+    .about_texto{width: 100%;}
+    .about_image{
+        width: 65%; 
+        margin-bottom: 10%;
+    }
+    .contacts > div{margin: 0;}
+    .contact{font-size: 1.6rem; font-weight: 500;}
+    .contact a{font-size: 1.3rem;}
+}
+@media (max-width:320px){
+    .contacts > div{flex-direction: column;}
+    .about_image{width: 80%;}
+}
+@media (max-width:280px){
+    .about_h3{font-size: 1.4rem;}
 }

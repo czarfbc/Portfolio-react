@@ -80,3 +80,17 @@ h4,h5{
     text-decoration: none;
     color: #fff;
 }
+@media (max-width: 1280px){
+    .projects_h2{font-size: 5.5rem;}
+    .projects_box{gap: 60px;}
+}
+@media (max-width: 1024px){
+    .projects{margin-bottom: 8%;}
+    .projects_h2{
+        font-size: 4.5rem;
+        margin-bottom: 8%;
+    }
+}
+@media (max-width: 480px){
+    .projects_h2{font-size: 3.5rem;}
+}
