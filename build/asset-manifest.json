@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d992fe1b.css",
+    "main.js": "/static/js/main.f308de14.js",
+    "static/media/czar.jpg": "/static/media/czar.0e45be198c626e11cf0f.jpg",
+    "static/media/Curriculo.pdf": "/static/media/Curriculo.7f53a26625f7f7127e16.pdf",
+    "static/media/js.png": "/static/media/js.166865dacb77d214f485.png",
+    "static/media/mockup.webp": "/static/media/mockup.de0cde21e15e3be89193.webp",
+    "index.html": "/index.html",
+    "static/media/linkedin.svg": "/static/media/linkedin.386d46fc1dc9ea908ed8bb6235009335.svg",
+    "main.d992fe1b.css.map": "/static/css/main.d992fe1b.css.map",
+    "main.f308de14.js.map": "/static/js/main.f308de14.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d992fe1b.css",
+    "static/js/main.f308de14.js"
+  ]
+}
