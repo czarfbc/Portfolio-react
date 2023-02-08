@@ -99,3 +99,22 @@
     .menu.menuOpen .list{display: flex;}
     .menu.menuClose .list{display: none;}
 }
+@media (max-width: 480px){
+    .list{
+        width: 100%;
+        border-left: 0;
+    }
+    .list_items{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        border-top: 0.2rem solid #c0c0c0;
+    }
+    .a_mobile{
+        font-size: 1.2rem; 
+        font-weight: 600;
+    }
+}
+@media (max-width: 320px){
+    .a_mobile{font-size: 0.9rem;}
+}

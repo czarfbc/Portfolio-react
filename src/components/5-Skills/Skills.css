@@ -47,7 +47,7 @@
 }
 @media (max-width:768px) {
     .skills{ 
-        width:calc(100%/2.5);
+        width:calc(100%/2.3);
         flex-direction: column; 
         align-items: center;
         gap: 10px;
@@ -56,8 +56,10 @@
         width: 100%; 
         padding: 7% 0;
     }
-
     .skill-p{font-size: 2rem;}
+}
+@media (max-width:480px){
+    .skill-p{font-size: 1.8rem;}
 }
 @media (max-width:320px){
     .skills{width:calc(100%/2);}
