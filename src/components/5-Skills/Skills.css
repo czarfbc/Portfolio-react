@@ -17,7 +17,7 @@
 }
 .skill_box{
     padding: 3% 0;
-    width: calc(100%/4);
+    width: calc(100%/3);
 }
 .skill-icon{
     color: #4F4F4F;
@@ -33,6 +33,12 @@
 }
 .react-icon:hover{
     color: #61DAFB;
+}
+.sass-icon:hover{
+    color: #CF649A;
+}
+.node-icon:hover{
+    color: #8CC84B;
 }
 .skill-p{
     font-size: 2.5rem;
