@@ -37,6 +37,36 @@ function Projects() {
           </div>
         </div>
 
+        <div className='projects_box_single'>
+          <h4>Linguagem predominante</h4>
+          <img className='projects_img' src={assets.sass_image} alt=''/>
+          <h5>Portal-Noticias</h5>
+          <div className='projects_btn'>
+            <a className='projects_btn_a btn_a_1' href='https://github.com/czarfbc/Portal-Noticias' rel='noreferrer' target='_blank'>Github</a>
+            <a className='projects_btn_a btn_a_2' href='https://github.com/czarfbc/Portal-Noticias' rel='noreferrer' target='_blank'>Preview</a>
+          </div>
+        </div>
+
+        <div className='projects_box_single'>
+          <h4>Linguagem predominante</h4>
+          <img className='projects_img' src={assets.js_image} alt=''/>
+          <h5>To-do-list</h5>
+          <div className='projects_btn'>
+            <a className='projects_btn_a btn_a_1' href='https://github.com/czarfbc/To-do-list-nodejs' rel='noreferrer' target='_blank'>Github</a>
+            <a className='projects_btn_a btn_a_2' href='https://github.com/czarfbc/To-do-list-nodejs' rel='noreferrer' target='_blank'>Preview</a>
+          </div>
+        </div>
+
+        <div className='projects_box_single'>
+          <h4>Linguagem predominante</h4>
+          <img className='projects_img' src={assets.js_image} alt=''/>
+          <h5>Pedra-Papel-Tesoura</h5>
+          <div className='projects_btn'>
+            <a className='projects_btn_a btn_a_1' href='https://github.com/czarfbc/Pedra--Papel--Tesoura' rel='noreferrer' target='_blank'>Github</a>
+            <a className='projects_btn_a btn_a_2' href='https://github.com/czarfbc/Pedra--Papel--Tesoura' rel='noreferrer' target='_blank'>Preview</a>
+          </div>
+        </div>
+
       </div> 
     </div>
   );
