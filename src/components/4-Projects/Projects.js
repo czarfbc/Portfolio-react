@@ -5,11 +5,11 @@ import { useEffect, useState } from 'react';
 
 function Projects() {
   
-  const [rep, setRep] = useState([])
+  const [repository, setRepository] = useState([])
   useEffect(() => {
     fetch('https://api.github.com/users/czarfbc/repos')
     .then(res => res.json()).then(data => {
-      setRep(data)
+      setRepository(data)
     })
   }, [])
   
@@ -18,7 +18,7 @@ function Projects() {
       <h2 className="projects_h2">Projetos</h2>
       <div className='projects_box'>
       
-      {rep.map(repo => {
+      {repository.map(repo => {
         switch (repo.language) {
           case "CSS":
             var iconProject = assets.css_image
