@@ -17,28 +17,12 @@
 }
 .skill_box{
     padding: 3% 0;
-    width: calc(100%/3);
+    width: calc(100%/4);
 }
-.skill-icon{
-    color: #4F4F4F;
-}
-.html-icon:hover{
-    color: #E96228;
-}
-.css-icon:hover{
-    color: #0081d1;
-}
-.js-icon:hover{
-    color: #EFD81D;
-}
-.react-icon:hover{
-    color: #61DAFB;
-}
-.sass-icon:hover{
-    color: #CF649A;
-}
-.node-icon:hover{
-    color: #8CC84B;
+.hoverTranslateY{transition: all 100ms ease 0ms;}
+.hoverTranslateY:hover{
+    transition: all 100ms ease 0ms;
+    transform: translateY(-1rem);
 }
 .skill-p{
     font-size: 2.5rem;
