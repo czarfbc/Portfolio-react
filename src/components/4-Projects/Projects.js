@@ -1,3 +1,4 @@
+/* eslint-disable array-callback-return */
 import './Projects.css';
 import assets from '../Assets/index.js';
 import { useEffect, useState } from 'react';
