@@ -46,6 +46,11 @@
     width: 1.6rem;
     margin-right: 10%;
 }
+.mockup_image{transition: all 0.5s ease 0s;}
+.mockup_image:hover{
+    filter: drop-shadow(0px 0px 8px #c8c8c8); 
+    transform: translateY(-1rem) scale(1.02);
+}
 @media (max-width:1024px){
     .mockup_texto{text-align: center;}
     .mockup_h1{font-size: 3.5rem;}
@@ -72,7 +77,7 @@
 @media (max-width:320px){
     .mockup_btn{
         flex-direction: column;
-       
+
     }
     .link-btn-2{margin-top: 0;}
 }
