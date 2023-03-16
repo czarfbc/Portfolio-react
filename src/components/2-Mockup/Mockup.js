@@ -1,5 +1,6 @@
 import './Mockup.css';
 import assets from '../Assets/index.js';
+import { TypeAnimation } from 'react-type-animation';
 
 function Mockup() {
   return (
@@ -7,7 +8,22 @@ function Mockup() {
       <div className="mockup_texto">
         <h1 className="mockup_h1">Oi, eu sou<br/>
         <span className="mockup_span">Cézar Fernando.</span>
-        <br/>Desenvolvedor Front-end.</h1>
+        <br/>
+          <TypeAnimation
+            sequence={[
+              'Desenvolvedor Front-End Jr',
+              1000, 
+              'Desenvolvedor Back-End Jr',
+              2000,
+              'Desenvolvedor Full-Stack Jr',
+              3000,
+            ]}
+            wrapper="div"
+            cursor={true}
+            repeat={Infinity}
+          />
+        </h1>
+
         <div className='projects_btn mockup_btn'>
 
           <a className='link-btn link-btn-1' href={assets.curriculo} download='curriculo-cezarfernando'><img className='btn_image' src={assets.cv_image} alt=''/>Download CV</a>
