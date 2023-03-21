@@ -16,11 +16,11 @@ function Mockup() {
               'Desenvolvedor Back-End Jr',
               2000,
               'Desenvolvedor Full-Stack Jr',
-              3000,
+              
             ]}
             wrapper="div"
             cursor={true}
-            repeat={Infinity}
+            repeat={false}
           />
         </h1>
 
