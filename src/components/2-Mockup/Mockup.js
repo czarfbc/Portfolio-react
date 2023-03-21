@@ -5,6 +5,7 @@ import { TypeAnimation } from 'react-type-animation';
 function Mockup() {
   return (
     <div className="mockup">
+
       <div className="mockup_texto">
         <h1 className="mockup_h1">Oi, eu sou<br/>
         <span className="mockup_span">Cézar Fernando.</span>
@@ -15,7 +16,7 @@ function Mockup() {
               1000, 
               'Desenvolvedor Back-End Jr',
               2000,
-              'Desenvolvedor Full-Stack Jr',
+              'Desenvolvedor Full-Stack Jr', 
               
             ]}
             wrapper="div"
@@ -32,6 +33,7 @@ function Mockup() {
           
         </div>
       </div>
+      
       <img className='mockup_image' src={assets.mockup_image} alt=''/>
     </div>
   );
