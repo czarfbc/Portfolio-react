@@ -12,10 +12,22 @@ function Mockup() {
         <br/>
           <TypeAnimation
             sequence={[
+              
+              '',
+              1500,
+
               'Desenvolvedor Front-End Jr',
-              1000, 
+              1500, 
+
+              '',
+              500,
+
               'Desenvolvedor Back-End Jr',
-              2000,
+              1500,
+
+              '',
+              500,
+              
               'Desenvolvedor Full-Stack Jr', 
               
             ]}
