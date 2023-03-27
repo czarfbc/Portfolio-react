@@ -35,6 +35,23 @@ function Projects() {
           default:
             break;
         }
+        switch (repo.name) {
+          case "Portfolio":
+            var linkDeploy = 'https://czar-portifolio.netlify.app/'
+            break;
+
+          case "Portfolio-react":
+            linkDeploy = 'https://cezarportfolio.netlify.app/'
+            break;
+
+          case "Pokedex":
+            linkDeploy = 'https://czar-pokedex.netlify.app/'
+            break;
+        
+          default:
+            linkDeploy = repo.html_url
+            break;
+        }
 
         if (repo.language != null) {
           return (
@@ -45,7 +62,7 @@ function Projects() {
               <h5>{repo.name}</h5>
               <div className='projects_btn'>
                 <a className='projects_btn_a btn_a_1' href={repo.html_url} rel='noreferrer' target='_blank'>Github</a>
-                <a className='projects_btn_a btn_a_2' href={repo.html_url} rel='noreferrer' target='_blank'>Preview</a>
+                <a className='projects_btn_a btn_a_2' href={linkDeploy} rel='noreferrer' target='_blank'>Preview</a>
               </div>
             </div>
             
