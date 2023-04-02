@@ -47,6 +47,10 @@ function Projects() {
           case "Pokedex":
             linkDeploy = 'https://czar-pokedex.netlify.app/'
             break;
+          
+          case "New-Pokedex":
+            linkDeploy = 'https://cezar-newpokedex.netlify.app/'
+            break;
         
           default:
             linkDeploy = repo.html_url
