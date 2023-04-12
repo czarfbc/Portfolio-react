@@ -38,6 +38,7 @@
       "last 1 safari version"
     ]
   },
+  "homepage": "https://github.com/Math-Vieira/deezer-api-consumer#readme",
   "devDependencies": {
     "web-vitals": "^3.1.1"
   }
