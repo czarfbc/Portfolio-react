@@ -4,7 +4,8 @@ import czar from './Images/czar.jpg';
 import css from './Images/css.png';
 import html5 from './Images/html.png';
 import js from './Images/js.png';
-import sass from './Images/sass.png'
+import sass from './Images/sass.png';
+import typescript from './Images/typescript.png';
 
 import cv from './Images/cv.png';
 import linkedin1 from './Images/linkedin.svg';
@@ -20,6 +21,7 @@ const assets = {
     html_image: html5,
     js_image: js,
     sass_image: sass,
+    typescript: typescript,
 
     cv_image: cv,
     linkedin1: linkedin1,

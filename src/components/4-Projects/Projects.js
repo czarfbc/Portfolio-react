@@ -31,6 +31,11 @@ function Projects() {
           case "SCSS":
             iconProject = assets.sass_image
             break;
+          
+            case "TypeScript":
+              iconProject = assets.typescript
+              break;
+  
 
           default:
             break;
