@@ -16,19 +16,8 @@ function Mockup() {
               '',
               1500,
 
-              'Desenvolvedor Front-End Jr',
+              'Desenvolvedor Full-Stack Jr',
               1500, 
-
-              '',
-              500,
-
-              'Desenvolvedor Back-End Jr',
-              1500,
-
-              '',
-              500,
-              
-              'Desenvolvedor Full-Stack Jr', 
               
             ]}
             wrapper="div"
