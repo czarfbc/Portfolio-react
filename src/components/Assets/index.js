@@ -1,32 +1,36 @@
-import mockup from './Images/mockup.webp';
-import czar from './Images/czar.jpg';
+import mockup from "./Images/mockup.webp";
+import czar from "./Images/czar.jpg";
 
-import css from './Images/css.png';
-import html5 from './Images/html.png';
-import js from './Images/js.png';
-import sass from './Images/sass.png';
-import typescript from './Images/typescript.png';
+import css from "./Images/logos/css.png";
+import html5 from "./Images/logos/html.png";
+import js from "./Images/logos/js.png";
+import sass from "./Images/logos/sass.png";
+import typescript from "./Images/logos/typescript.png";
+import python from "./Images/logos/python.png";
+import java from "./Images/logos/java.png";
 
-import cv from './Images/cv.png';
-import linkedin1 from './Images/linkedin.svg';
-import linkedin2 from './Images/linkedin-in.png';
+import cv from "./Images/icons/cv.png";
+import linkedin2 from "./Images/icons/linkedin-in.png";
+import linkedin1 from "./Images/icons/linkedin.svg";
 
-import curriculo from './Curriculo.pdf';
+import curriculo from "./currículo.pdf";
 
 const assets = {
-    mockup_image: mockup,
-    czar_image: czar,
+  mockup_image: mockup,
+  czar_image: czar,
 
-    css_image: css,
-    html_image: html5,
-    js_image: js,
-    sass_image: sass,
-    typescript: typescript,
+  css,
+  html5,
+  js,
+  sass,
+  typescript,
+  python,
+  java,
 
-    cv_image: cv,
-    linkedin1: linkedin1,
-    linkedin2: linkedin2,
+  cv_image: cv,
+  linkedin1,
+  linkedin2,
 
-    curriculo: curriculo,
+  curriculo,
 };
 export default assets;
