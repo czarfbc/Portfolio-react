@@ -4,7 +4,7 @@ import { TypeAnimation } from "react-type-animation";
 
 function Mockup() {
   return (
-    <div className="mockup">
+    <div id="main" className="mockup">
       <div className="mockup_texto">
         <h1 className="mockup_h1">
           Oi, eu sou
